@@ -1,0 +1,14 @@
+.DS_Store
+.env*
+*.ipa
+*.xcarchive/
+*.xcodeproj/
+*.swift
+*.sqlite*
+*.db
+*.poolpilotbackup
+*.mobileprovision
+*.p12
+*.pem
+*.key
+PoolPilot/
