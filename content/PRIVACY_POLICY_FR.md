@@ -1,6 +1,6 @@
 # PoolPilot — Politique de confidentialité
 
-Cette politique décrit le fonctionnement de PoolPilot version 1 et du présent site. **Date d'entrée en vigueur : 16 octobre 2026. Dernière mise à jour : 24 octobre 2026.**
+Cette politique décrit le fonctionnement de PoolPilot version 1 et du présent site. **Date d'entrée en vigueur : 16 octobre 2026. Dernière mise à jour : 27 octobre 2026.**
 
 ## Qui contacter
 

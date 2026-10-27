@@ -1,6 +1,6 @@
 # PoolPilot — Privacy Policy
 
-This policy describes PoolPilot version 1 and this website. **Effective date: 16 October 2026. Last updated: 24 October 2026.**
+This policy describes PoolPilot version 1 and this website. **Effective date: 16 October 2026. Last updated: 27 October 2026.**
 
 ## Contact
 
