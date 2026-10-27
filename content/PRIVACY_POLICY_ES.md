@@ -1,6 +1,6 @@
-# PoolPilot — Política de privacidad (borrador en español)
+# PoolPilot — Política de privacidad
 
-**Comprobar antes de publicar:** coherencia con la versión distribuida, declaraciones App Privacy, datos de registro profesional y alojamiento, y URL pública efectiva. Este borrador describe la versión 1 del código revisada el 16 de octubre de 2026. Todavía no es una política publicada.
+Esta política describe PoolPilot versión 1 y este sitio web. **Fecha de entrada en vigor: 16 de octubre de 2026. Última actualización: 24 de octubre de 2026.**
 
 ## Contacto
 
@@ -16,7 +16,7 @@ También se utilizan los ajustes de la aplicación, la información de recordato
 
 Los expedientes profesionales permanecen en el almacenamiento local de la aplicación en el dispositivo, mediante SwiftData y archivos en Application Support. Las imágenes importadas se reducen y se guardan como archivos; los modelos de datos conservan solo rutas relativas. La información sirve para consultar y modificar expedientes, planificar recorridos, programar recordatorios y generar informes PDF.
 
-La versión 1 revisada no utiliza CloudKit para sincronizar expedientes. La auditoría del código no encontró servidores gestionados por el editor, SDK publicitarios ni SDK de análisis integrados en la aplicación comercial. Esta observación técnica no sustituye la revisión final de las respuestas de **App Privacy** y de los servicios activados al distribuir la aplicación. Las copias de seguridad del dispositivo gestionadas por iOS pueden incluir datos de la aplicación según los ajustes del usuario; son distintas de la sincronización CloudKit de PoolPilot.
+La versión 1 no utiliza CloudKit para sincronizar expedientes. La auditoría del código no encontró servidores gestionados por el editor, SDK publicitarios ni SDK de análisis integrados en la aplicación comercial. Las copias de seguridad del dispositivo gestionadas por iOS pueden incluir datos de la aplicación según los ajustes del usuario; son distintas de la sincronización CloudKit de PoolPilot.
 
 ## Servicios Apple y acciones iniciadas por el usuario
 
@@ -40,8 +40,8 @@ Cuando corresponda, las personas interesadas pueden solicitar acceso, rectificac
 
 ## Visita al sitio público
 
-Está previsto alojar el sitio informativo de PoolPilot en **GitHub Pages**. Su código no contiene formularios de contacto, herramientas de análisis, scripts publicitarios ni recursos cargados desde redes de terceros. No obstante, visitar una página conecta el navegador con los servidores de GitHub, que pueden tratar datos técnicos de conexión conforme a su [política de privacidad](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). El editor no utiliza esos datos para seguir a los visitantes del sitio. Los enlaces externos abren otros servicios a petición del visitante.
+El sitio informativo de PoolPilot está alojado en **GitHub Pages**. Su código no contiene formularios de contacto, herramientas de análisis, scripts publicitarios ni recursos cargados desde redes de terceros. No obstante, visitar una página conecta el navegador con los servidores de GitHub, que pueden tratar datos técnicos de conexión conforme a su [política de privacidad](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). El editor no utiliza esos datos para seguir a los visitantes del sitio. Los enlaces externos abren otros servicios a petición del visitante.
 
-Si un visitante escribe a **arnaudmourcel47@gmail.com**, su dirección de correo y el contenido del mensaje se utilizan para responder y, cuando sea necesario, dar seguimiento a la asistencia. La gestión de solicitudes de asistencia se basa en el interés legítimo del editor de prestar este servicio; las solicitudes de ejercicio de derechos se tramitan para cumplir las obligaciones legales aplicables. El editor puede acceder a la correspondencia, que pasa por **Gmail (Google)**. Según la [documentación de Google](https://policies.google.com/privacy/frameworks?hl=es), los datos pueden tratarse fuera del Espacio Económico Europeo; las garantías aplicables deben revisarse antes de publicar. El editor prevé eliminar los mensajes de asistencia a más tardar **12 meses desde el último intercambio**, salvo obligación legal o necesidad documentada de conservar un intercambio por un litigio. Esta regla debe aplicarse efectivamente en el buzón y revisarse si cambian las prácticas. El sitio no tiene formulario de contacto.
+Si un visitante escribe a **arnaudmourcel47@gmail.com**, su dirección de correo, el contenido del mensaje y los archivos adjuntos que envíe se utilizan para responder y, cuando sea necesario, dar seguimiento a la asistencia. La gestión de solicitudes de asistencia se basa en el interés legítimo del editor de prestar este servicio; las solicitudes de ejercicio de derechos se tramitan para cumplir las obligaciones legales aplicables. El editor puede acceder a la correspondencia, que pasa por **Gmail (Google)**. Según la [documentación de Google](https://policies.google.com/privacy/frameworks?hl=es), los datos pueden tratarse fuera del Espacio Económico Europeo. El editor prevé eliminar los mensajes de asistencia **a más tardar 12 meses después del último intercambio**, salvo obligación legal o necesidad documentada de conservar un intercambio por un litigio. El sitio no tiene formulario de contacto.
 
-Esta política debe revisarse si cambian las funciones, integraciones o prácticas de tratamiento. URL pública prevista: **https://arnaudmourcel47-spec.github.io/poolpilot-site/es/privacy/** (verificar tras la activación). Fecha de entrada en vigor prevista: **16 de octubre de 2026** (comunicada por el editor; la publicación todavía no se ha realizado).
+Esta política se actualizará si cambian las funciones, integraciones o prácticas de tratamiento. Está disponible en **https://arnaudmourcel47-spec.github.io/poolpilot-site/es/privacy/**.

@@ -25,7 +25,7 @@ LANGUAGES = {
         ],
         "privacy_callout_title": "Vos dossiers restent sous votre contrôle.",
         "privacy_callout": "La version 1 auditée conserve les dossiers professionnels localement sur l’appareil. Les exports et sauvegardes sont déclenchés par l’utilisateur. Consultez la politique pour le détail et ses limites.",
-        "draft_badge": "Publication en attente", "draft_text": "Le registre applicable, la situation TVA, la mention du téléphone de l’hébergeur et les déclarations App Privacy restent à valider. Les déclarations décrivent le code audité, sans remplacer la vérification finale de la version distribuée.",
+        "draft_badge": "Vérification juridique en cours", "draft_text": "Le registre applicable, la situation TVA et la mention du téléphone de l’hébergeur restent à confirmer. Le site est accessible, mais ces points ne sont pas considérés comme validés.",
         "support_intro": "Ressources et repères pour utiliser PoolPilot. L’éditeur répond aux demandes d’assistance par email.",
         "support_cards": [
             ("Dossiers et sauvegardes", "Depuis l’application, conservez une copie de vos données avec l’export de sauvegarde. Gardez l’archive dans un endroit sûr : elle n’est pas chiffrée par PoolPilot."),
@@ -34,7 +34,7 @@ LANGUAGES = {
         ],
         "support_contact": "Contact d’assistance", "support_contact_intro": "Arnaud Mourcel · EI, micro-entrepreneur · SIREN 883 531 113 · 244 rue de Bègles, 33800 Bordeaux, France.", "support_retention": "Conservation prévue des emails d’assistance : 12 mois après le dernier échange, sous réserve des exceptions décrites dans la politique de confidentialité.",
         "support_note": "Pour une question relative aux données personnelles, consultez aussi la politique de confidentialité.",
-        "footer": "PoolPilot · Arnaud Mourcel EI · Version préparatoire", "skip": "Aller au contenu", "lang_label": "Langue du site",
+        "footer": "PoolPilot · Arnaud Mourcel EI", "skip": "Aller au contenu", "lang_label": "Langue du site",
         "home_title": "PoolPilot — L’app des professionnels de la piscine", "privacy_title": "Politique de confidentialité — PoolPilot", "support_title": "Assistance — PoolPilot", "legal_title": "Mentions légales — PoolPilot",
     },
     "en": {
@@ -51,7 +51,7 @@ LANGUAGES = {
         ],
         "privacy_callout_title": "Your professional records stay in your hands.",
         "privacy_callout": "The reviewed version 1 stores professional records locally on the device. Users choose when to export or back up data. Read the policy for details and limitations.",
-        "draft_badge": "Publication pending", "draft_text": "The applicable register, VAT position, hosting-provider telephone notice and App Privacy disclosures still need review. The statements describe reviewed code and do not replace a final check of the distributed build.",
+        "draft_badge": "Legal review in progress", "draft_text": "The applicable register, VAT position and hosting-provider telephone notice still need confirmation. This website is accessible, but these points are not considered resolved.",
         "support_intro": "Guidance for using PoolPilot. The publisher responds to support requests by email.",
         "support_cards": [
             ("Records and backups", "Use the app’s backup export to keep a copy of your data. Store the archive securely: PoolPilot does not encrypt it."),
@@ -60,7 +60,7 @@ LANGUAGES = {
         ],
         "support_contact": "Support contact", "support_contact_intro": "Arnaud Mourcel · French sole proprietor and micro-entrepreneur · SIREN 883 531 113 · 244 rue de Bègles, 33800 Bordeaux, France.", "support_retention": "Planned retention of support emails: 12 months after the last exchange, subject to the exceptions explained in the privacy policy.",
         "support_note": "For questions about personal data, also read the privacy policy.",
-        "footer": "PoolPilot · Arnaud Mourcel EI · Preparation version", "skip": "Skip to content", "lang_label": "Site language",
+        "footer": "PoolPilot · Arnaud Mourcel EI", "skip": "Skip to content", "lang_label": "Site language",
         "home_title": "PoolPilot — The app for pool professionals", "privacy_title": "Privacy policy — PoolPilot", "support_title": "Support — PoolPilot", "legal_title": "Legal notice — PoolPilot",
     },
     "es": {
@@ -77,7 +77,7 @@ LANGUAGES = {
         ],
         "privacy_callout_title": "Tus expedientes profesionales, bajo tu control.",
         "privacy_callout": "La versión 1 revisada guarda los expedientes localmente en el dispositivo. El usuario decide cuándo exportar o guardar copias. Lee la política para conocer los detalles y límites.",
-        "draft_badge": "Publicación pendiente", "draft_text": "Quedan por revisar el registro aplicable, la situación del IVA, la mención del teléfono del proveedor y las declaraciones App Privacy. El código revisado no sustituye una comprobación final de la versión distribuida.",
+        "draft_badge": "Revisión jurídica en curso", "draft_text": "Quedan por confirmar el registro aplicable, la situación del IVA y la mención del teléfono del proveedor de alojamiento. El sitio es accesible, pero estos puntos no se consideran resueltos.",
         "support_intro": "Orientación para utilizar PoolPilot. El editor responde a las solicitudes de ayuda por correo.",
         "support_cards": [
             ("Expedientes y copias", "Utiliza la exportación de la app para conservar una copia de tus datos. Guarda el archivo de forma segura: PoolPilot no lo cifra."),
@@ -86,7 +86,7 @@ LANGUAGES = {
         ],
         "support_contact": "Contacto de asistencia", "support_contact_intro": "Arnaud Mourcel · empresario individual y microempresario · SIREN 883 531 113 · 244 rue de Bègles, 33800 Bordeaux, Francia.", "support_retention": "Conservación prevista de los correos de asistencia: 12 meses desde el último intercambio, con las excepciones indicadas en la política de privacidad.",
         "support_note": "Para consultas sobre datos personales, lee también la política de privacidad.",
-        "footer": "PoolPilot · Arnaud Mourcel EI · Versión preparatoria", "skip": "Ir al contenido", "lang_label": "Idioma del sitio",
+        "footer": "PoolPilot · Arnaud Mourcel EI", "skip": "Ir al contenido", "lang_label": "Idioma del sitio",
         "home_title": "PoolPilot — La app de los profesionales de piscinas", "privacy_title": "Política de privacidad — PoolPilot", "support_title": "Ayuda — PoolPilot", "legal_title": "Aviso legal — PoolPilot",
     },
 }
@@ -223,7 +223,7 @@ def home(lang: str) -> str:
 def privacy(lang: str) -> str:
     d = LANGUAGES[lang]
     source = (ROOT / "content" / f"PRIVACY_POLICY_{lang.upper()}.md").read_text(encoding="utf-8")
-    return f'''<section class="page-top"><div class="shell narrow"><p class="section-kicker">POOLPILOT / {escape(d['privacy'])}</p><div class="draft-note" role="note"><strong>{escape(d['draft_badge'])}</strong><p>{escape(d['draft_text'])}</p></div></div></section><article class="shell narrow policy-content">{render_markdown(source)}</article>'''
+    return f'''<section class="page-top"><div class="shell narrow"><p class="section-kicker">POOLPILOT / {escape(d['privacy'])}</p></div></section><article class="shell narrow policy-content">{render_markdown(source)}</article>'''
 
 
 def legal(lang: str) -> str:

@@ -1,6 +1,6 @@
-# PoolPilot — Privacy Policy (English draft)
+# PoolPilot — Privacy Policy
 
-**Check before publication:** consistency with the distributed build, App Privacy disclosures, business registration and hosting details, and the actual public URL. This draft describes version 1 code reviewed on 16 October 2026. It is not yet a published policy.
+This policy describes PoolPilot version 1 and this website. **Effective date: 16 October 2026. Last updated: 24 October 2026.**
 
 ## Contact
 
@@ -16,7 +16,7 @@ The app also uses its settings, local reminder information, and the subscription
 
 Professional records stay in the app's local storage on the device, using SwiftData and files in Application Support. Imported images are resized and stored as files; data models keep only relative file paths. This information is used to display and edit records, plan routes, schedule reminders, and generate PDF reports.
 
-The reviewed version 1 does not use CloudKit to synchronize records. The code audit found no publisher-operated server, advertising SDK, or analytics SDK integrated into the commercial target. This technical finding does not replace the final review of **App Privacy** answers and services enabled for distribution. Device backups managed by iOS may include app data depending on the user's settings; they are separate from PoolPilot CloudKit synchronization.
+Version 1 does not use CloudKit to synchronize records. The code audit found no publisher-operated server, advertising SDK, or analytics SDK integrated into the commercial target. Device backups managed by iOS may include app data depending on the user's settings; they are separate from PoolPilot CloudKit synchronization.
 
 ## Apple services and user-initiated actions
 
@@ -40,8 +40,8 @@ Where applicable, individuals may request access to, rectification or erasure of
 
 ## Visiting the public website
 
-The PoolPilot information website is planned for **GitHub Pages**. Its source contains no contact form, analytics, advertising script, or asset fetched from a third-party network. Visiting a page nevertheless connects the browser to GitHub's servers, which may process technical connection data under its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The publisher does not use that data to track website visitors. External links open other services at the visitor's request.
+The PoolPilot information website is hosted on **GitHub Pages**. Its source contains no contact form, analytics, advertising script, or asset fetched from a third-party network. Visiting a page nevertheless connects the browser to GitHub's servers, which may process technical connection data under its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The publisher does not use that data to track website visitors. External links open other services at the visitor's request.
 
-If a visitor writes to **arnaudmourcel47@gmail.com**, their email address and message content are used to respond and, where needed, to follow up on support. Handling support requests is based on the publisher's legitimate interest in providing support; requests to exercise privacy rights are handled to comply with applicable legal obligations. Correspondence is available to the publisher and passes through **Gmail (Google)**. Under [Google's documentation](https://policies.google.com/privacy/frameworks?hl=en), data may be processed outside the European Economic Area; the applicable safeguards still need review before publication. The publisher plans to delete support messages no later than **12 months after the last exchange**, unless a legal duty or a documented dispute requires longer retention. This rule must be put into practice in the mailbox and reviewed if practices change. The site has no contact form.
+If a visitor writes to **arnaudmourcel47@gmail.com**, their email address, message content and any attachments are used to respond and, where needed, to follow up on support. Handling support requests is based on the publisher's legitimate interest in providing support; requests to exercise privacy rights are handled to comply with applicable legal obligations. Correspondence is available to the publisher and passes through **Gmail (Google)**. Under [Google's documentation](https://policies.google.com/privacy/frameworks?hl=en), data may be processed outside the European Economic Area. The publisher plans to delete support messages **no later than 12 months after the last exchange**, unless a legal duty or a documented dispute requires longer retention. The site has no contact form.
 
-This policy must be reviewed if features, integrations, or processing practices change. Planned public URL: **https://arnaudmourcel47-spec.github.io/poolpilot-site/en/privacy/** (verify after activation). Planned effective date: **16 October 2026** (provided by the publisher; publication has not yet occurred).
+This policy will be updated if features, integrations, or processing practices change. It is available at **https://arnaudmourcel47-spec.github.io/poolpilot-site/en/privacy/**.
